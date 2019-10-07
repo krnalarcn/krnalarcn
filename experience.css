@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+#home {
+  height: 100vh;
+  background-image: url("img/wsj.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+#title {
+  margin: 0;
+  color: #E676D3;
+  position: absolute;
+  top: 76%;
+  left: 75%;
+  transform: translateX(-50%)translateY(-50%);
+  font-size: 26px;
+}
+
+#footer {
+  font-size: 19px;
+  margin-left: 15px;
+  position: absolute;
+  top: 87%;
+  color: #FFFFFF;
+  text-shadow: 2px 2px #B95E53;
+}
+
+h2{
+  font-size: 40px;
+}
+
+#about {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+
+#directory {
+  padding-top: 30px;
+}
+
+#directory a {
+  color: white;
+  font-size: 30px;
+  font-style: none;
+   margin-top: 30px;
+   margin-right: 15px;
+   padding: 30px;
+}
+
+a:link {
+text-decoration: none;
+text-shadow: 2px 2px #327FA7;
+font-size: 15px;
+
+}
+
+#about p {
+  width: 60%;
+  line-height: 40px;
+}
+
+.row {
+  display: flex;
+  padding: 0 4px;
+  margin-bottom: 20px;
+}
+.column {
+  flex: 23%;
+  max-width: 25%;
+  padding: 0 0.5%;
+}
+.column img{
+  width: 100%;
+  margin-top: 2.5%;
+}
